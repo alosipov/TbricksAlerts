@@ -81,7 +81,7 @@ Func SendToTeams($alert)
    ControlClick($h, "", "", "", 1, 486,22) ; кликаем в строке поиска
    Sleep(500)
    ControlSend($h, "", "", "@Tbricks Support Chat") ; вводим нужный нам чат и отправляем туда ошибку
-   ;ControlSend("[REGEXPTITLE:(?i)| Microsoft Teams]", "", "", "@Ignatov, Artem, ")
+   ;ControlSend("[REGEXPTITLE:(?i)| Microsoft Teams]", "", "", "@Osipov, Aleksei, ")
    Sleep(1000)
    ControlSend($h, "", "", "{ENTER}")
    Sleep(500)
